@@ -56,7 +56,7 @@ header[role="banner"] {
  * Header - Navigation
  */
 
-.nav.large-tablet {
+header .nav {
 
 	a {
 
@@ -79,15 +79,18 @@ header[role="banner"] {
 
 		ul {
 
-			border: none;
-
 			ul {
 
-				top: 0;
 
 			}
 
 		}
+
+	}
+
+	& > ul > li:first-child > a {
+
+		padding-left: 0;
 
 	}
 
