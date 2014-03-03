@@ -8,7 +8,7 @@ module.exports = (grunt) ->
         files: ['package.json', 'Gruntfile.coffee']
       styles:
         files: ['assets/scss/**/*.scss', 'config.rb']
-        tasks: ['styles']
+        tasks: ['styles', 'cssmin', 'bless']
         options:
           livereload: true
       scripts:
