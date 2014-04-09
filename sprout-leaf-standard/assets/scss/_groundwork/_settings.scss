@@ -8,6 +8,11 @@ $large-tablet-width:   48em;
 $desktop-width:        64em;
 $large-desktop-width:  80em;
 
+// leaf relative paths
+$leaf_path:                 "../../sprout-leaf-standard/assets/";
+$leaf_fonts_path:            "../" + $leaf-path + "/fonts/";
+$leaf_images_path:           "../" + $leaf-path + "/img/";
+
 // breakpoints
 $breakpoints:          "mobile" "small-tablet" "large-tablet" "desktop";
 $breakpoint-sizes:     0 $small-tablet-width $large-tablet-width $desktop-width;
